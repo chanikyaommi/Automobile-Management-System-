@@ -1,0 +1,57 @@
+/* Parent container holding both the image and passage content */
+.content-wrapper_1 {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the contents */
+    align-items: center; /* Align items */
+    margin: 10px auto; /* Add margin */
+    padding: 20px; /* Add padding */
+    width: 100%; /* Ensure the width of the container spans the entire parent */
+}
+
+/* Styling for the image container */
+.image_container_1 {
+    width: 60%;
+    display: flex;
+   
+    padding: 20px;
+}
+
+
+/* Styling for the passage content container */
+.passagecontent_1 {
+    width: 26%;
+    padding: 20px;
+    height: 397px;
+    font-size: 18px;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    background-color: white;
+}
+
+.Selected_head {
+    text-align: center; /* Center the heading */
+    margin: 20px 0; /* Add top and bottom margin to the heading */
+}
+
+.Button_1 {
+    margin-left: 5%;
+    /* margin-top: 5%; */
+    width: 400px;
+    padding: 14px;
+    border-radius: 4px;
+    color: white;
+    font-size: 30px;
+    background-color: green;
+    cursor: pointer;
+}
+
+.Button_1:hover {
+    cursor: pointer;
+}

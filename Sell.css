@@ -1,0 +1,57 @@
+/* General body styles */
+body {
+    background-color: white; /* Background color */
+    font-family: Arial, sans-serif; /* Font family */
+}
+
+/* Styles for the heading */
+.h2 {
+    color: black; /* Heading color */
+    text-align: center; /* Center the heading */
+    margin: 20px 0; /* Add top and bottom margin */
+}
+
+/* Styles for the file input button */
+.Choose_image {
+    display: block; /* Display as block element */
+    margin: 20px auto; /* Center the button */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    color: blackwhite; /* Button text color */
+    font-size: 16px; /* Button font size */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+
+
+/* Container for both the image and passage content */
+.content-wrapper {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space between the image and text */
+    margin-bottom: 20px; /* Add bottom margin */
+    padding: 10px; /* Padding inside the wrapper */
+}
+
+/* Styling for the image container */
+.image_container {
+    width: 50%; /* Takes 50% of the container width */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the image */
+    align-items: center; /* Align items */
+    padding: 10px; /* Add padding */
+}
+
+/* Styling for the passage content container */
+.passagecontent {
+    width: 50%; /* Takes 50% of the container width */
+    padding: 10px; /* Add padding */
+    font-size: 16px; /* Adjust font size as desired */
+    line-height: 1.5; /* Adjust line height */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 12px; /* Optional border radius */
+}
+
+/* Styling for each paragraph in the passagecontent container */
+.passagecontent p {
+    margin-bottom: 10px; /* Add margin between paragraphs */
+}

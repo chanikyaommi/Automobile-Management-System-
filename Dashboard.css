@@ -1,0 +1,102 @@
+.body{
+  
+    height: 100vh;
+    background-color: white;
+   
+  }
+  
+  .Cargrid{
+    background-color: white;
+  display: flex;
+  flex-wrap: wrap; 
+  padding: 20px;
+  justify-content: space-between;
+  
+ 
+   
+  }
+  .Button{
+    background-color: blue;
+    padding: 7px;
+    width: 397px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .Button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: blue;
+  }
+
+  .Passage_content{
+    /* border: 1px solid black; */
+    margin-top: 0;
+    margin: 3%;
+    background-color: var(--white);
+    
+  }
+  
+  .Sell{
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: blue;
+    padding: 5px;
+   position: absolute;
+   right:0;
+    width: 69px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .image-container{
+    margin-right: 122px;
+    margin: 20px;
+  }
+
+  .image_1{
+width: 400px;
+height: 250px;
+margin: 4px;
+
+border-radius: 8px;
+  }
+  
+  .Footer {
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-content:hover{
+    cursor: pointer;
+    
+  }
+
+  li:hover{
+    text-decoration: underline yellow;
+  }
+  
+  .footer-section {
+    flex: 1;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }

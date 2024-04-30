@@ -1,0 +1,43 @@
+/* Home.css */
+
+.home-container {
+    text-align: center;
+    color: aqua;
+    margin-top: 0px;
+    /* background-image: url('https://th.bing.com/th/id/R.409ecbe61ce663526eef4b0ae2d8bbda?rik=l%2folnuqD7oF8Ag&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2f4k-Car-Cool-Backgrounds-Wallpapers.jpg&ehk=jqTyjabToWdy5zt09G3G1tQTAFOy9L4Dh6Uk118LnTM%3d&risl=&pid=ImgRaw&r=0'); */
+    background-size: cover ;
+    background-position: top;
+    background-repeat: no-repeat;
+   height: 3vh;
+    /* Add any additional styling for home-container */
+  }
+  
+  .body {
+    /* text-align: center; */
+  
+   
+     background-image: url('../src/imgaes/porsche.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+  }
+  .Head_content{
+    margin-left: 60%;
+    color: #5f5555;
+    font-size: 20px;
+    padding: 0px;
+    /* margin-top: 50px */
+
+  }
+  .Font_text{
+    font-family:Cursive;
+    margin-left: 20%;
+    
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,9,121,1) 100%, rgba(0,212,255,1) 100%); */
+  }
+  
+  /* Add more styles as needed */
+
+
+  /* <iframe src="https://giphy.com/embed/fu2jnBN8S9rIk" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/3d-cars-cg-fu2jnBN8S9rIk">via GIPHY</a></p> */
